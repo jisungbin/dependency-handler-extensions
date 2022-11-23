@@ -6,7 +6,7 @@ This Gradle plugin helps you easily do multiple `add`s on your `DependencyHandle
 
 ```kotlin
 plugins {
-    id("land.sungbin.dependency.handler.extensions") version "1.0.0"
+    id("land.sungbin.dependency.handler.extensions") version "$version"
 }
 ```
 
@@ -14,6 +14,7 @@ plugins {
 
 ```kotlin
 dependencies {
+    classpaths(.., .., ..)
     apis(.., .., ..)
     kapts(.., .., ..)
     ksps(.., .., ..)

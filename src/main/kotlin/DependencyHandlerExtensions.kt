@@ -15,6 +15,7 @@ class DependencyHandlerExtensions : Plugin<Project> {
     override fun apply(target: Project) = Unit // do nothing
 
     companion object {
+        private const val Classpath = "classpath"
         private const val Api = "api"
         private const val Kapt = "kapt"
         private const val Ksp = "ksp"
@@ -25,6 +26,13 @@ class DependencyHandlerExtensions : Plugin<Project> {
         private const val TestImplementation = "testImplementation"
         private const val TestRuntimeOnly = "testRuntimeOnly"
         private const val AndroidTestImplementation = "androidTestImplementation"
+
+        fun DependencyHandler.classpaths(vararg paths: Any) {
+            delegate(
+                method = Classpath,
+                paths = paths,
+            )
+        }
 
         fun DependencyHandler.apis(vararg paths: Any) {
             delegate(
