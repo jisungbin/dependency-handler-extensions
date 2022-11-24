@@ -4,7 +4,7 @@ This Gradle plugin helps you easily do multiple `add`s on your `DependencyHandle
 
 ### Download ![maven-central](https://img.shields.io/maven-central/v/land.sungbin.dependency.handler.extensions/dependency.handler.extensions.plugin)
 
-```kotlin
+```gradle
 plugins {
     id("land.sungbin.dependency.handler.extensions") version "$version"
 }
@@ -12,7 +12,7 @@ plugins {
 
 or.. (if you want implementation)
 
-```kotlin
+```gradle
 dependencies {
     implementation("land.sungbin.dependency.handler.extensions:dependency-handler-extensions-plugin:${version}")
 }
@@ -20,7 +20,7 @@ dependencies {
 
 ### Usage
 
-```kotlin
+```gradle
 dependencies {
     classpaths(.., .., ..)
     apis(.., .., ..)
@@ -38,7 +38,7 @@ dependencies {
 
 #### Real-World example
 
-```kotlin
+```gradle
 // source: https://github.com/duckie-team/duckie-android/blob/c10ea3ca2b0bccda7069c02786e6a83eeaacd9d2/util-viewmodel/build.gradle.kts#L18-L27
 
 dependencies {
