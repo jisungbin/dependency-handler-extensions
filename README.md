@@ -10,6 +10,14 @@ plugins {
 }
 ```
 
+or.. (if you want implementation)
+
+```kotlin
+dependencies {
+    implementation("land.sungbin.dependency.handler.extensions:dependency-handler-extensions-plugin:${version}")
+}
+```
+
 ### Usage
 
 ```kotlin
