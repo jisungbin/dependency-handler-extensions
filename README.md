@@ -47,4 +47,4 @@ dependencies {
 
 ### License
 
-This project is licensed under the MIT License. Please refer to the [LICENSE file](https://github.com/duckie-team/composable-function-reference-diagnostic-suppressor/blob/main/LICENSE) for details.
+This project is licensed under the MIT License. Please refer to the [LICENSE file](LICENSE) for details.
