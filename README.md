@@ -2,7 +2,7 @@
 
 This Gradle plugin helps you easily do multiple `add`s on your `DependencyHandler`.
 
-### Download ![maven-central](https://img.shields.io/maven-central/v/land.sungbin.dependency.handler.extensions/dependency.handler.extensions.plugin)
+### Download ![maven-central](https://img.shields.io/maven-central/v/land.sungbin.dependency.handler.extensions/dependency-handler-extensions-plugin)
 
 ```gradle
 plugins {
