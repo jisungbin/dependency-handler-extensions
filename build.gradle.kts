@@ -18,7 +18,7 @@ gradlePlugin {
     plugins {
         create("dependencyHandleExtensions") {
             id = "land.sungbin.dependency.handler.extensions"
-            implementationClass = "DependencyHandlerExtensions"
+            implementationClass = "DependencyHandler"
         }
     }
 }
