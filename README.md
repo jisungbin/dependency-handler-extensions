@@ -1,4 +1,4 @@
-# DependencyHandlerExtensions
+# dependency-handler-extensions
 
 This Gradle plugin helps you easily do multiple `add`s on your `DependencyHandler`.
 
