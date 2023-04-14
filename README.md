@@ -18,6 +18,8 @@ dependencies {
 }
 ```
 
+_Note that this plugin uses JDK 17._
+
 ### Usage
 
 ```gradle
