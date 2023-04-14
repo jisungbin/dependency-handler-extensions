@@ -1,5 +1,5 @@
 /*
- * Developed by 2022 Ji Sungbin
+ * Developed by 2023 Ji Sungbin
  *
  * Licensed under the MIT.
  * Please see full license: https://github.com/duckie-team/DependencyHandlerExtensions/blob/main/LICENSE
@@ -28,10 +28,10 @@ repositories {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "11"
+    kotlinOptions.jvmTarget = "17"
 }
 
 tasks.withType<JavaCompile> {
-    sourceCompatibility = JavaVersion.VERSION_11.toString()
-    targetCompatibility = JavaVersion.VERSION_11.toString()
+    sourceCompatibility = JavaVersion.VERSION_17.toString()
+    targetCompatibility = JavaVersion.VERSION_17.toString()
 }
